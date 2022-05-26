@@ -7,6 +7,16 @@ import Example3 from './components/useState/Exampe3';
 import Todos from './components/todosApp';
 import Main from './components/mountedAndUnmounted';
 import PartOne from './components/useEffect/PartOne';
+import PartTwo from './components/useEffect/PartTwo';
+import PartThree from './components/useEffect/PartThree';
+import PartFour from './components/useEffect/PartFour';
+import PartFive from './components/useEffect/PartFive';
+import Chat from './components/fakeChat';
+import UseLayoutEffect from './components/useLayoutEffect';
+import UseRef from './components/useRef';
+import Memo from './components/memo';
+import UseCallback from './components/useCallback';
+import UseMemo from './components/useMemo'
 function App() {
   const [show, setShow] = React.useState(false);
   //es5
@@ -42,7 +52,27 @@ function App() {
         show && <Main /> 
       }
       <button onClick={() => setShow(!show)}>Set Show</button> */}
-      <PartOne/>
+      {/* <PartOne /> */}
+      {/* {
+        show && <PartTwo /> 
+      }
+      <button onClick={() => setShow(!show)}>Set Show</button> */}
+      {/* {
+        show && <PartThree /> 
+      } */}
+      {
+        // show && <PartFour /> 
+      }
+      {/* {
+        show && <PartFive /> 
+      } */}
+      {/* <button onClick={() => setShow(!show)}>Set Show</button> */}
+      {/* <Chat /> */}
+      {/* <UseLayoutEffect/> */}
+      {/* <UseRef/> */}
+      {/* <Memo /> */}
+      <UseCallback />
+      {/* <UseMemo/> */}
     </div>
 
   );

@@ -50,3 +50,15 @@ button{
   margin-top: 35px;
   cursor: pointer;
 }
+button.active{
+  color: white;
+  background-color: black;
+}
+button.btn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
