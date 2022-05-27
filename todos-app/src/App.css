@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.box{
+  display: flex;
+}
+.box-container{
+  width: 200px;
+  margin: 0 auto;
+}
+button{
+  margin-top: 20px;
+  height: 20px;
+  cursor: pointer;
+}

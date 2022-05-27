@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+button{
+  cursor: pointer;
+}
+.item{
+  border: 1px solid black;
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.box-btn{
+  padding-top: 10px;
+}
+.todos{
+  margin-top: 20px
+}
+input[type="checkbox"]{
+  -ms-transform: scale(1.5);
+  /* IE */
+  -moz-transform: scale(1.5);
+  /* FF */
+  -webkit-transform: scale(1.5);
+  /* Safari and Chrome */
+  -o-transform: scale(1.5);
+  /* Opera */
+  transform: scale(1.5);
+  padding: 10px;
+  margin-top: 8px;
+  float: right;
+  cursor: pointer;
+  
+}
+.completed{
+  text-decoration: line-through;
+}

@@ -16,7 +16,8 @@ import UseLayoutEffect from './components/useLayoutEffect';
 import UseRef from './components/useRef';
 import Memo from './components/memo';
 import UseCallback from './components/useCallback';
-import UseMemo from './components/useMemo'
+import UseMemo from './components/useMemo';
+import UseReducer from './components/useReducer'
 function App() {
   const [show, setShow] = React.useState(false);
   //es5
@@ -71,8 +72,9 @@ function App() {
       {/* <UseLayoutEffect/> */}
       {/* <UseRef/> */}
       {/* <Memo /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
       {/* <UseMemo/> */}
+      <UseReducer/>
     </div>
 
   );
